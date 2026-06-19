@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>try{history.scrollRestoration='manual';}catch(e){}</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>V2 Jets — The World Awaits.</title>
+<meta name="description" content="V2 Jets is a private-aviation broker — your navigator for on-demand charter, the Obsidian jet card, and the V2 Vault. Offices in New York, Boca Raton, and Palm Beach. Trust is our bond." />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="V2 Jets — The World Awaits." />
+<meta property="og:description" content="A private-aviation broker — your navigator at altitude. On-demand charter, Obsidian, and the V2 Vault. Trust is our bond." />
+<meta property="og:image" content="assets/og-image.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="V2 Jets — The World Awaits." />
+<meta name="twitter:description" content="A private-aviation broker — your navigator at altitude. Trust is our bond." />
+<meta name="twitter:image" content="assets/og-image.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="engine.css" />
+<link rel="stylesheet" href="skin.css" />
+
+<!-- schema.org: V2 is a broker (a professional service / org), not an airline -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"V2 Jets",
+  "description":"Air charter broker arranging on-demand private jet charter, the Obsidian jet card, the V2 Vault prepaid account, and aircraft management.",
+  "url":"https://www.v2jets.com/",
+  "telephone":"+1-212-204-8422",
+  "email":"info@v2jets.com",
+  "image":"assets/og-image.jpg",
+  "sameAs":["https://www.instagram.com/v2jets/","https://www.linkedin.com/company/v2jets/","https://www.facebook.com/v2jets/"],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.7","reviewCount":"15"},
+  "address":[
+    {"@type":"PostalAddress","streetAddress":"2600 N Military Trail","addressLocality":"Boca Raton","addressRegion":"FL","postalCode":"33431","addressCountry":"US"},
+    {"@type":"PostalAddress","streetAddress":"880 3rd Ave, 6th Floor","addressLocality":"New York","addressRegion":"NY","postalCode":"10022","addressCountry":"US"},
+    {"@type":"PostalAddress","streetAddress":"250 Royal Palm Way","addressLocality":"Palm Beach","addressRegion":"FL","postalCode":"33480","addressCountry":"US"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ░░ PRELOADER ░░ -->
+<div class="preloader" id="preloader">
+  <img class="preloader__logo" src="assets/logo-light.svg" alt="V2 Jets" />
+  <div class="preloader__num">The World Awaits.</div>
+  <div class="preloader__bar"><span id="loadBar"></span></div>
+  <div class="preloader__pct"><span id="loadPct">0</span> · clearing for departure</div>
+</div>
+
+<!-- ░░ TOP BAR ░░ -->
+<header class="topbar" id="topbar">
+  <a href="index.html" class="topbar__logo"><img src="assets/logo-light.svg" alt="V2 Jets — home" /></a>
+  <input type="checkbox" id="navToggle" class="navtoggle" hidden />
+  <label for="navToggle" class="navburger" aria-label="Menu"><span></span><span></span><span></span></label>
+  <nav class="topbar__nav">
+    <a href="charter.html">Fly</a>
+    <a href="staff.html">People</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="topbar__right">
+    <span class="topbar__ticker">Next available · cleared 24/7</span>
+    <a href="contact.html" class="topbar__cta">Request a Flight</a>
+  </div>
+</header>
+
+<div class="scrollbar"><span id="scrollbar"></span></div>
+
+<!-- chapter rail (order + active-state derived from these hrefs) -->
+<nav class="chapters" id="chapters" aria-label="Chapters">
+  <a href="#act-1" class="chapters__dot" data-label="01 · Departure"><span></span></a>
+  <a href="#act-2" class="chapters__dot" data-label="02 · At Altitude"><span></span></a>
+  <a href="#act-3" class="chapters__dot" data-label="03 · The Coast"><span></span></a>
+  <a href="#fleet" class="chapters__dot" data-label="The Manifest"><span></span></a>
+  <a href="#act-4" class="chapters__dot" data-label="04 · Ground World"><span></span></a>
+  <a href="#proof" class="chapters__dot" data-label="The Bond"><span></span></a>
+  <a href="#act-5" class="chapters__dot" data-label="05 · Cleared Out"><span></span></a>
+</nav>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<main>
+
+  <!-- ═══ VECTOR 01 / DEPARTURE — dusk on a Florida tarmac ═══ -->
+  <section class="act" id="act-1" data-act data-seq="01-departure-dusk" data-count="192" style="--len:5.5">
+    <div class="act__stage">
+      <canvas class="act__canvas" width="1920" height="804"></canvas>
+      <div class="act__scrim"></div>
+      <div class="act__label">VECTOR 01 / 05</div>
+      <div class="cap cap--center" data-from="0" data-to="0.30">
+        <span class="kicker center">
+          <span class="eyebrow">V2 Jets · Private Aviation</span>
+          <span class="vector" style="--vw:96px"><i></i><b></b><s></s></span>
+        </span>
+        <h1 class="bignum">The World Awaits.</h1>
+        <p class="cap__sub">26°22'N 80°06'W · <span class="cy">BCT</span> · Boca Raton</p>
+      </div>
+      <div class="cap cap--center" data-from="0.50" data-to="0.86">
+        <h2 class="statement">We fly nothing.<br/>We route everything.</h2>
+        <p class="cap__sub">Your navigator, not your airline</p>
+      </div>
+    </div>
+    <a href="#act-2" class="scroll-cue" aria-label="Scroll"><span></span>Scroll</a>
+  </section>
+
+  <!-- ═══ VECTOR 02 / AT ALTITUDE — gold-lit empty cabin ═══ -->
+  <section class="act" id="act-2" data-act data-seq="02-cabin-altitude" data-count="192" style="--len:5.5">
+    <div class="act__stage">
+      <canvas class="act__canvas" width="1920" height="804"></canvas>
+      <div class="act__scrim"></div>
+      <div class="act__label">VECTOR 02 / 05</div>
+      <div class="cap cap--left" data-from="0.06" data-to="0.40" style="--maxw:1280px">
+        <span class="kicker">
+          <span class="eyebrow">At Altitude</span>
+          <span class="vector" style="--vw:120px"><i></i><b></b><s></s></span>
+        </span>
+        <h2 class="statement">Flying is<br/>transcending.</h2>
+      </div>
+      <div class="cap cap--left" data-from="0.54" data-to="0.90" style="--maxw:1280px">
+        <p class="cap__sub" style="font-size:clamp(.9rem,1.6vw,1.15rem);line-height:1.7;letter-spacing:.06em;text-transform:none;max-width:46ch">A hand-selected charter specialist holds your routing — taxi time, fuel, and repositioning included, no membership fees. You name where and when. We clear the rest.</p>
+        <p class="cap__sub">FL410 · <span class="cy">Cruise</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ VECTOR 03 / THE COAST — wing over Florida at golden hour ═══ -->
+  <section class="act" id="act-3" data-act data-seq="03-wing-coastline" data-count="192" style="--len:6">
+    <div class="act__stage">
+      <canvas class="act__canvas" width="1920" height="804"></canvas>
+      <div class="act__scrim"></div>
+      <div class="act__label">VECTOR 03 / 05</div>
+      <div class="cap cap--center" data-from="0.08" data-to="0.44">
+        <span class="kicker center">
+          <span class="eyebrow">The Reach</span>
+          <span class="vector" style="--vw:96px"><i></i><b></b><s></s></span>
+        </span>
+        <h2 class="statement">The Skies Are<br/>The Limit.</h2>
+        <p class="cap__sub">HDG 090 · <span class="cy">Coast</span></p>
+      </div>
+      <div class="cap cap--center" data-from="0.58" data-to="0.92">
+        <p class="cap__sub" style="font-size:clamp(.9rem,1.6vw,1.1rem);line-height:1.7;letter-spacing:.05em;text-transform:none;max-width:42ch">From a turboprop hop down the coast to an ultra-long-range crossing — one navigator, every category, on one bond of trust.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ THE MANIFEST — representative aircraft (light data section) ═══ -->
+  <section class="info" id="fleet">
+    <div class="info__wrap" data-coord="N · MANIFEST · 06">
+      <div class="sec-head" data-fade>
+        <div class="kicker">
+          <span class="eyebrow">The Manifest</span>
+          <span class="vector vector--light" style="--vw:80px"><i></i><b></b><s></s></span>
+        </div>
+        <span class="k">Representative aircraft · by category</span>
+      </div>
+      <h2 class="info__head" data-fade>We own no aircraft. We hold access to them all.</h2>
+      <p class="info__lead" data-fade>V2 is a broker — your navigator across a select group of aircraft owners and operators. We place you in the right category for the route, not in the jet we happen to have. Figures below are representative of each category, not a fleet we operate.</p>
+
+      <div class="manifest" data-fade>
+        <div class="manifest__row">
+          <div class="manifest__name">Turboprop</div>
+          <div class="manifest__cat">Short hop</div>
+          <div class="manifest__spec">Representative range ~1,000 nm · regional legs, smaller fields</div>
+          <div class="manifest__pax">4–8 pax</div>
+        </div>
+        <div class="manifest__row">
+          <div class="manifest__name">Light Jet</div>
+          <div class="manifest__cat">Light</div>
+          <div class="manifest__spec">Representative range ~1,500 nm · the everyday city pair</div>
+          <div class="manifest__pax">5–7 pax</div>
+        </div>
+        <div class="manifest__row">
+          <div class="manifest__name">Midsize</div>
+          <div class="manifest__cat">Mid size</div>
+          <div class="manifest__spec">Representative range ~2,500 nm · coast-to-coast comfort</div>
+          <div class="manifest__pax">7–8 pax</div>
+        </div>
+        <div class="manifest__row">
+          <div class="manifest__name">Super-Midsize</div>
+          <div class="manifest__cat">Super mid</div>
+          <div class="manifest__spec">Representative range ~3,500 nm · stand-up cabin, longer legs</div>
+          <div class="manifest__pax">8–10 pax</div>
+        </div>
+        <div class="manifest__row">
+          <div class="manifest__name">Heavy Jet</div>
+          <div class="manifest__cat">Heavy</div>
+          <div class="manifest__spec">Representative range ~4,500 nm · transcontinental, full galley</div>
+          <div class="manifest__pax">10–14 pax</div>
+        </div>
+        <div class="manifest__row">
+          <div class="manifest__name">Ultra-Long-Range</div>
+          <div class="manifest__cat">Ultra long range</div>
+          <div class="manifest__spec">e.g. Gulfstream G650 — representative aircraft in this category, not a V2-owned jet · 12+ hours nonstop · ~550–610 mph · intercontinental</div>
+          <div class="manifest__pax">12–16 pax</div>
+        </div>
+      </div>
+      <p class="info__fine">Categories and representative figures shown for orientation. V2 Jets, LLC is an Air Charter Broker and not a U.S. or foreign direct air carrier in operational control of aircraft.</p>
+    </div>
+  </section>
+
+  <!-- ═══ THE OFFER — services (slate data section) ═══ -->
+  <section class="info info--slate" id="offer">
+    <div class="info__wrap" data-coord="WAYS TO FLY">
+      <div class="sec-head" data-fade>
+        <div class="kicker">
+          <span class="eyebrow">Ways to Fly</span>
+          <span class="vector" style="--vw:80px"><i></i><b></b><s></s></span>
+        </div>
+        <span class="k">Four routes to the same bond</span>
+      </div>
+
+      <div class="panels" data-fade>
+        <div class="panel">
+          <div class="panel__tag">On-demand · pay-as-you-fly</div>
+          <h3 class="panel__name">Charter</h3>
+          <p class="panel__body">Fly where, when and how you want, in the utmost of luxury. A personal, hand-selected charter specialist, available around the clock. Taxi time, fuel, and repositioning included — and no membership fees.</p>
+          <p class="panel__meta"><span class="g-badge" style="border:none;color:var(--gold)">›</span> Available 24/7</p>
+        </div>
+        <div class="panel">
+          <div class="panel__tag">Jet card · membership</div>
+          <h3 class="panel__name">Obsidian</h3>
+          <p class="panel__body">A fixed-rate jet card for flyers who want certainty. Lock your hours at a known rate — offered in 25- and 50-hour tiers — and let the routing run on your terms, not the market's.</p>
+          <p class="panel__meta"><span class="g-badge" style="border:none;color:var(--gold)">›</span> 25 / 50 hours</p>
+        </div>
+        <div class="panel">
+          <div class="panel__tag">Prepaid account</div>
+          <h3 class="panel__name">V2 Vault</h3>
+          <p class="panel__body">A prepaid flight account for the client who flies often and plans ahead. Fund the Vault once; draw against it trip by trip. The simplest way to keep your routing cleared and ready.</p>
+          <p class="panel__meta"><span class="g-badge" style="border:none;color:var(--gold)">›</span> Fund once, fly down</p>
+        </div>
+        <div class="panel">
+          <div class="panel__tag">For aircraft owners</div>
+          <h3 class="panel__name">Aircraft Management</h3>
+          <p class="panel__body">Own the aircraft; let us run the operation. We handle the operating detail and place your aircraft to work when you are not flying it — managed with the same bond of trust we give every client.</p>
+          <p class="panel__meta"><span class="g-badge" style="border:none;color:var(--gold)">›</span> Owners &amp; principals</p>
+        </div>
+      </div>
+      <div class="btnrow" style="justify-content:flex-start;margin-top:2.4rem" data-fade>
+        <a href="charter.html" class="btn">View all programs</a>
+        <a href="contact.html" class="btn btn--solid">Request a flight</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ VECTOR 04 / GROUND WORLD — pre-dawn South Florida coast ═══ -->
+  <section class="act" id="act-4" data-act data-seq="06-palm-coast-dawn" data-count="192" style="--len:5.5">
+    <div class="act__stage">
+      <canvas class="act__canvas" width="1920" height="804"></canvas>
+      <div class="act__scrim"></div>
+      <div class="act__label">VECTOR 04 / 05</div>
+      <div class="cap cap--center" data-from="0.08" data-to="0.42">
+        <span class="kicker center">
+          <span class="eyebrow">The Ground World</span>
+          <span class="vector" style="--vw:96px"><i></i><b></b><s></s></span>
+        </span>
+        <h2 class="statement">Boca Raton.<br/>Palm Beach.<br/>New York.</h2>
+        <p class="cap__sub">3 offices · <span class="cy">1 bond</span></p>
+      </div>
+      <div class="cap cap--center" data-from="0.56" data-to="0.92">
+        <h2 class="statement" style="font-size:clamp(1.8rem,4.6vw,3.4rem)">Trust is our bond.</h2>
+        <p class="cap__sub">Trust, not tricks</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ THE BOND — proof / stats (dark data section) ═══ -->
+  <section class="info info--dark" id="proof">
+    <div class="info__wrap" data-coord="THE BOND">
+      <div class="sec-head" data-fade>
+        <div class="kicker">
+          <span class="eyebrow">The Bond</span>
+          <span class="vector" style="--vw:80px"><i></i><b></b><s></s></span>
+        </div>
+        <span class="k">From an idea to a $100M business</span>
+      </div>
+      <h2 class="info__head" data-fade>Trust, not tricks. Built on expertise, execution, and relationships.</h2>
+
+      <div class="stats" data-counts data-fade style="margin-top:2.8rem">
+        <div class="stat">
+          <div class="stat__n"><span class="count" data-to="2015">0</span></div>
+          <div class="stat__l">Founded · Boca Raton</div>
+        </div>
+        <div class="stat">
+          <div class="stat__n"><span class="stat__u">$</span><span class="count" data-to="100">0</span><span class="stat__u">M</span></div>
+          <div class="stat__l">From an idea to a $100M business</div>
+        </div>
+        <div class="stat">
+          <div class="stat__n"><span class="count" data-to="4.7" data-dec="1">0</span><span class="stat__u">★</span></div>
+          <div class="stat__l">Google rating · <span style="color:var(--cyan)">15</span> reviews</div>
+        </div>
+        <div class="stat">
+          <div class="stat__n"><span class="count" data-to="3">0</span></div>
+          <div class="stat__l">Offices · NY · Boca · Palm Beach</div>
+        </div>
+      </div>
+
+      <div class="triad" data-fade>
+        <div class="triad__item">
+          <div class="triad__n">01 · Expertise</div>
+          <div class="triad__h">We know the routing</div>
+          <p class="triad__p">Years inside private aviation, on the brokerage side of the table. We read the market so you only see the right aircraft for the trip.</p>
+        </div>
+        <div class="triad__item">
+          <div class="triad__n">02 · Execution</div>
+          <div class="triad__h">We clear it, end to end</div>
+          <p class="triad__p">One specialist owns your flight from request to wheels-up — day, night, and weekend. Taxi, fuel, and repositioning handled before you ask.</p>
+        </div>
+        <div class="triad__item">
+          <div class="triad__n">03 · Relationships</div>
+          <div class="triad__h">We fly the long route</div>
+          <p class="triad__p">A relationship-first house. The first flight is the start of the bond, not the end of the sale. Trust is our bond — and we keep it.</p>
+        </div>
+      </div>
+      <p class="info__fine">"$100M business" is V2's own framing of its growth — annual business scale, not a company valuation.</p>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT band ═══ -->
+  <section class="info" id="about-band">
+    <div class="info__wrap about" data-coord="THE V2 BRIEF">
+      <div data-fade>
+        <div class="kicker" style="margin-bottom:1.6rem">
+          <span class="eyebrow">The V2 Brief</span>
+          <span class="vector vector--light" style="--vw:80px"><i></i><b></b><s></s></span>
+        </div>
+        <p class="about__quote">From the ground to the skies, a life of <em>effortless luxury</em> is our client's right.</p>
+      </div>
+      <div class="about__body" data-fade>
+        <p>V2 Jets is a private-aviation broker founded in Boca Raton in 2015 by Steven Rosenzweig and Guy Endzweig — one a veteran of the charter business, the other an entrepreneur whose real edge was his network.</p>
+        <p>They built the firm on three things: expertise, execution, and long-term relationships. We arrange and route your flying; we never operate the aircraft. That separation is the point — our only allegiance is to you.</p>
+        <p>The result is a house that grew from an idea to a $100M business without changing the rule it started with. Trust, not tricks.</p>
+        <p class="about__sign">— The V2 Brief</p>
+        <div class="btnrow" style="justify-content:flex-start;margin-top:1.8rem">
+          <a href="about.html" class="btn">Read the brief</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ VECTOR 05 / CLEARED OUT — closing CTA over the final clip ═══ -->
+  <section class="act" id="act-5" data-act data-seq="07-vector-out" data-count="192" style="--len:5">
+    <div class="act__stage">
+      <canvas class="act__canvas" width="1920" height="804"></canvas>
+      <div class="act__scrim act__scrim--strong"></div>
+      <div class="act__label">VECTOR 05 / 05</div>
+      <div class="cap cap--center" data-from="0.10" data-to="0.92">
+        <span class="kicker center">
+          <span class="eyebrow">Cleared for Departure</span>
+          <span class="vector vector--cyan" style="--vw:120px"><i></i><b></b><s></s></span>
+        </span>
+        <h2 class="cta__head">The World Awaits.</h2>
+        <p class="cta__sub">Tell us where. We'll clear the route.</p>
+        <div class="btnrow">
+          <a href="contact.html" class="btn btn--solid">Request a flight</a>
+          <a href="tel:+12122048422" class="btn">Call 212-204-8422</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER — DEPARTURES BOARD ═══ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div>
+          <div class="footer__logo"><img src="assets/logo-light.svg" alt="V2 Jets" /></div>
+          <p class="footer__tag">Your navigator at altitude.</p>
+          <p class="footer__creed">Trust is our bond.</p>
+        </div>
+        <div class="board" aria-label="Offices">
+          <div class="board__hdr"><span>Office</span><span>Address</span><span>Code</span></div>
+          <a class="board__row" href="https://www.google.com/maps/search/?api=1&query=880+3rd+Ave+6th+Floor+New+York+NY+10022" target="_blank" rel="noopener">
+            <span class="board__city">New York</span>
+            <span class="board__addr">880 3rd Ave, 6th Floor · 10022</span>
+            <span class="board__code">JFK · TEB</span>
+          </a>
+          <a class="board__row" href="https://www.google.com/maps/search/?api=1&query=2600+N+Military+Trail+Boca+Raton+FL+33431" target="_blank" rel="noopener">
+            <span class="board__city">Boca Raton</span>
+            <span class="board__addr">2600 N Military Trail · 33431</span>
+            <span class="board__code">BCT</span>
+          </a>
+          <a class="board__row" href="https://www.google.com/maps/search/?api=1&query=250+Royal+Palm+Way+Palm+Beach+FL+33480" target="_blank" rel="noopener">
+            <span class="board__city">Palm Beach</span>
+            <span class="board__addr">250 Royal Palm Way · 33480</span>
+            <span class="board__code">PBI</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__links">
+          <a href="charter.html">Fly</a>
+          <a href="staff.html">People</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://www.instagram.com/v2jets/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.linkedin.com/company/v2jets/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:info@v2jets.com">info@v2jets.com</a>
+          <a href="tel:+12122048422">212-204-8422</a>
+        </div>
+      </div>
+      <p class="footer__legal">V2 Jets, LLC is an Air Charter Broker and not a U.S. or foreign direct air carrier in operational control of aircraft. Aircraft are operated by FAR Part 135 or Part 121 direct air carriers. Cinematic footage on this site is AI-generated; representative aircraft figures are illustrative of each category, not a fleet V2 operates. © 2026 V2 Jets.</p>
+    </div>
+  </footer>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="engine.js"></script>
+</body>
+</html>

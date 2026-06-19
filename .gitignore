@@ -1,0 +1,10 @@
+# build artifacts — never deploy these (SKILL §9)
+assets/clips/
+*.mp4
+bin/
+*.zip
+extract.sh
+.claude/
+.DS_Store
+**/.DS_Store
+assets/photos/hero-xl.jpg

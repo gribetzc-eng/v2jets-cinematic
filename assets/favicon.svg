@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="V2">
+  <rect width="48" height="48" rx="7" fill="#0A0C10"/>
+  <path d="M11 13 L20 35 L29 13" fill="none" stroke="#F2EFE8" stroke-width="3" stroke-linecap="square"/>
+  <text x="29.5" y="34" font-family="'JetBrains Mono',monospace" font-size="20" font-weight="700" fill="#C8A96A">2</text>
+</svg>
